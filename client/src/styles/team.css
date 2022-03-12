@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Monoton&family=Montserrat:wght@300;400&family=Quicksand:wght@300;400;800&family=Roboto:wght@300;400;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+section.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #fc00ff;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00dbde, #fc00ff);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #00dbde, #fc00ff);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+section.team div.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section.team div.container h1 {
+    font-size: 5em;
+    color: black;
+    margin: 50px 0;
+    font-family: 'Cinzel', sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+    text-align: center;
+}
+
+section.team div.container h1 span {
+    color: #E9364E;
+}

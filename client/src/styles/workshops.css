@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Monoton&family=Montserrat:wght@300;400&family=Quicksand:wght@300;400;600;800&family=Roboto:wght@300;400;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+section.workshops {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #ff00cc;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #333399, #ff00cc);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #333399, #ff00cc);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+section.workshops div.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section.workshops div.container h1 {
+    font-size: 5em;
+    color: #E9364E;
+    margin-top: 50px;
+    font-family: 'Cinzel', sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+    text-align: center;
+}
+
+section.workshops div.container p {
+    font-size: 1.4em;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+}

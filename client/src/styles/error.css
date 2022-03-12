@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Monoton&family=Montserrat:wght@300;400;600&family=Quicksand:wght@300;400;800&family=Roboto:wght@300;400;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    scroll-behavior: smooth;
+    background-color: #fff;
+}
+
+section.error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section.error div.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section.error div.container h1 {
+    font-size: 3em;
+    color: black;
+    margin: 10px 0;
+    font-family: 'Cinzel', sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+    text-align: center;
+}
+
+section.error div.container p {
+    font-size: 1.2em;
+    color: black;
+    margin: 10px 0;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    font-weight: 500;
+    text-align: center;
+}
+
+section.error div.container img {
+    height: 55%;
+    width: 55%;
+}
+
+section.error div.container button {
+    padding: 10px 25px;
+    border: 0;
+    outline: 0;
+    border-radius: 35px;
+    font-size: 1.5em;
+    border: 3px solid black;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: black;
+    background-color: #fff;
+    transition: all 0.5s ease-in-out;
+}
+
+section.error div.container button:hover {
+    color: #E9364E;
+    border: 3px solid #E9364E;
+}

@@ -1,0 +1,420 @@
+/* Initial Set Up */
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Monoton&family=Montserrat:wght@300;400&family=Quicksand:wght@300;400;800&family=Roboto:wght@300;400;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+/* Home */
+
+nav.navbar a.navbar-brand {
+    color: black;
+    font-family: 'Cinzel', sans-serif;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+nav.navbar div.navbar-collapse ul.navbar-nav li.nav-item a.nav-link {
+    color: #E9364E;
+    font-size: 1.2em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+section.hero {
+    width: 100%;
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('https://papers.co/wallpaper/papers.co-vd54-abstract-black-geometric-line-pattern-36-3840x2400-4k-wallpaper.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section.hero div.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section.hero div.container h1:nth-child(1) {
+    color: #E9364E;
+    font-family: 'Cinzel', sans-serif;
+    font-size: 6em;
+    font-weight: 600;
+}
+
+section.hero div.container h1:nth-child(2) {
+    color: #fff;
+    font-family: 'Monoton', sans-serif;
+    font-size: 6em;
+    font-weight: 600;
+}
+
+section.hero div.container h1:nth-child(2) span.change {
+    color: #E9364E;
+}
+
+section.hero div.container p {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.3em;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+}
+
+section.hero div.container p span.change {
+    font-size: 1.4em;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    color: #E9364E;
+}
+
+section.hero div.container a button {
+    color: #fff;
+    border: 0;
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 12px 25px;
+    font-size: 1.3em;
+    border-radius: 30px;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Quicksand', sans-serif;
+    transition: all 0.4s ease-in-out;
+}
+
+section.hero div.container a button:hover {
+    color: #E9364E;
+    border: 2px solid #E9364E;
+}
+
+/* About */
+
+section.about div.container {
+    margin: 50px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+section.about div.container h1 {
+    color: #E9364E;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 1.8em;
+    text-align: left;
+}
+
+section.about div.container p {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    font-size: 1.1em;
+}
+
+section.about div.container h1#second span {
+    color: black;
+}
+
+/* About 2 */
+
+section.about2 {
+    background-color: rgb(243, 243, 243);
+}
+
+section.about2 div.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section.about2 div.container h1 {
+    margin: 50px 0 30px 0;
+    font-size: 2.5em;
+    color: black;
+}
+
+section.about2 div.container h1#title {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.5em;
+}
+
+section.about2 div.container h1#title span {
+    color: #E9364E;
+}
+
+section.about2 div.container div.row {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+section.about2 div.container div.row div.infocard {
+    height: 250px;
+    width: 350px;
+    border-radius: 15px;
+    margin: 0 10px;
+    padding: 20px;
+    margin: 20px 12px;
+    transition: all 0.5s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+section.about2 div.container div.row div.infocard:hover {
+    height: 270px;
+    width: 350px;
+    border-radius: 15px;
+    margin: 0 10px;
+    padding: 20px;
+    margin: 20px 12px;
+    box-shadow: 0px 0px 33px 8px rgba(163, 159, 159, 0.75);
+    -webkit-box-shadow: 0px 0px 33px 8px rgba(163, 159, 159, 0.75);
+    -moz-box-shadow: 0px 0px 33px 8px rgba(163, 159, 159, 0.75);
+}
+
+section.about2 div.container div.row div.infocard h1 {
+    font-size: 1.5em;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 800;
+    margin: 10px 0;
+}
+
+section.about2 div.container div.row div.infocard p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+    text-transform: capitalize;
+}
+
+section.about2 div.container div.row div.infocard#one {
+    background: #36D1DC;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #779ff7, #36D1DC);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #779ff7, #36D1DC);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+section.about2 div.container div.row div.infocard#two {
+    background: #fa734e;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7b733, #fa734e);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7b733, #fa734e);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+section.about2 div.container div.row div.infocard#three {
+    color: white;
+    background: #ff00cc;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #333399, #ff00cc);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #333399, #ff00cc);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+section.about2 div.container div.row div.infocard#three h1 {
+    color: white;
+}
+
+section.about2 div.container a button {
+    color: white;
+    padding: 13px 35px;
+    outline: 0;
+    border: 0;
+    border-radius: 50px;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    background: #ED213A;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #93291E, #ED213A);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* Telegram */
+
+section.telegram {
+    height: 400px;
+    background: #36D1DC;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5B86E5, #36D1DC);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section.telegram div.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+section.telegram div.container h2 {
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+section.telegram div.container h1 {
+    font-size: 3em;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: 'Cinzel', sans-serif;
+}
+
+section.telegram div.container p {
+    font-size: 1.3em;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+}
+
+section.telegram div.container a button {
+    font-size: 1.2em;
+    font-weight: 400;
+    color: white;
+    border: 0;
+    outline: none;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 50px;
+    background-color: transparent;
+    padding: 14px 40px;
+    border: 2px solid #fff;
+    text-transform: capitalize;
+    transition: all 0.5s ease-in-out;
+}
+
+section.telegram div.container a button:hover {
+    color: black;
+    font-weight: bold;
+    border: 4px solid #000;
+}
+
+/* Footer */
+
+section.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section.footer div.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+section.footer div.container div.row div.col-md-3 h2 {
+    font-size: 1.5em;
+    color: rgb(0, 0, 43);
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+section.footer div.container div.row div.col-md-3 a p {
+    font-size: 1.1em;
+    color: rgb(158, 158, 158);
+    font-family: 'Montserrat', sans-serif;
+}
+
+section.footer div.container div.row div.col-md-3 a:hover {
+    text-decoration: none;
+}
+
+section.footer div.container div.row div.col-md-3 a p:hover {
+    text-decoration: none;
+    color: #E9364E;
+}
+
+section.footer div.container div.row div.col-md-3 a p#email {
+    color: #E9364E;
+    font-weight: 600;
+    transition: all 0.5s ease-in-out;
+}
+
+section.footer div.container div.row div.col-md-3 a p#email:hover {
+    color: #0efa06;
+    font-weight: 600;
+}
+
+section.footer div.container div.row div.links div.social {
+    margin-left: -25px;
+}
+
+section.footer div.container div.row div.links div.social #github,
+section.footer div.container div.row div.links div.social #instagram,
+section.footer div.container div.row div.links div.social #twitter,
+section.footer div.container div.row div.links div.social #telegram {
+    color: grey;
+    transition: all 0.5s ease-out;
+}
+
+section.footer div.container div.row div.links div.social #github:hover {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    cursor: pointer;
+}
+
+section.footer div.container div.row div.links div.social #instagram:hover {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background: #833ab4;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;
+}
+
+section.footer div.container div.row div.links div.social #twitter:hover {
+    color: #fff;
+    cursor: pointer;
+    background-color: #00acee;
+}
+
+section.footer div.container div.row div.links div.social #telegram:hover {
+    color: #fff;
+    cursor: pointer;
+    background-color: #229ED9;
+}
+
+section.footer div.container p#copy {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Monoton&family=Montserrat:wght@300;400&family=Quicksand:wght@300;400;800&family=Roboto:wght@300;400;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+section.conduct {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(238, 238, 238);
+}
+
+section.conduct div.container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+section.conduct div.container h1 {
+    font-size: 5em;
+    color: #E9364E;
+    font-family: 'Cinzel', sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+    text-align: center;
+}
+
+section.conduct div.container p {
+    font-size: 1.2em;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+section.conduct div.container p.desc {
+    font-size: 1em;
+    text-align: center;
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+}
+
+section.conduct div.container p span a {
+    font-size: 1.2em;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #E9364E;
+}
+
+section.conduct div.container p span a:hover {
+    color: #0efa06;
+}
+
+section.conduct div.container h2 {
+    margin-top: 15px;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+section.conduct div.container ul li {
+    list-style: none;
+    font-size: 1.2em;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+}
